@@ -18,3 +18,4 @@ y4 = 1*rand(size(t4));
 %t = [t1, t2, t3, t4];
 y = [y1, y2, y3, y4];
 plot(t, y)
+
