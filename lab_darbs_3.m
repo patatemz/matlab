@@ -1,6 +1,6 @@
 function y = gabsign(t)
-dt = 0.01
-t = 0:dt:4.5;
+%dt = 0.01
+%t = 0:dt:4.5;
 
 t1 = t(t<=1);
 t2 = 1+dt:dt:1.5;
@@ -20,6 +20,6 @@ y5 = 0*ones(size(t5));
 
 %t = [t1, t2, t3, t4];
 y = [y1, y2, y3, y4, y5];
-plot(t, y, 'linewidth', 2)
-grid on
-axis([0 5 -3.5 3.5])
+%plot(t, y, 'linewidth', 2)
+%grid on
+%axis([0 5 -3.5 3.5])
